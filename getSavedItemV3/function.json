@@ -6,6 +6,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
+      "route": "customer/savedlists/v3/customers/me/lists/default/items",
       "methods": [
         "get",
         "post"
